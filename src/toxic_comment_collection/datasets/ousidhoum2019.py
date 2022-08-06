@@ -80,4 +80,5 @@ SOFTWARE."""
         row["labels"] = labels
         row = row.drop(["annotator_sentiment","target","group","directness","HITId","sentiment", "tweet"])
         return row
+    
         
